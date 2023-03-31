@@ -1,0 +1,6 @@
+.uploadedFileDetails {
+    top: 50%;
+    right: 16px;
+    position: absolute;
+    transform: translateY(-50%);
+}

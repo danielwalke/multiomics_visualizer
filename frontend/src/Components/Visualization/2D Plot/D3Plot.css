@@ -1,0 +1,17 @@
+.tooltip {
+    position: absolute;
+    overflow: auto;
+    /*background: #0068b8;*/
+    padding: 10px;
+    border-radius: 10px;
+    color: white
+}
+
+.x-axis, .y-axis {
+    font-size: small;
+}
+
+.visualization-2D {
+    transform: translateY(-395px);
+    border-radius: 10px;
+  }

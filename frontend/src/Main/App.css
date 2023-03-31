@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  user-select: none !important;
+}
+
+.MuiAccordionSummary-content {
+  display: block !important;
+  text-align: center !important;
+}
+
+.MuiAccordionSummary-root {
+  background: #0068b4 !important;
+    color: white !important;
+}
+
+.MuiAccordionSummary-expandIcon {
+  color: white !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

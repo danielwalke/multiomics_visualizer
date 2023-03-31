@@ -1,0 +1,12 @@
+.rightPanel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: unset;
+}
+
+.d3PlotDiv {
+    overflow: unset;
+    margin: 2% 0 0 0
+}

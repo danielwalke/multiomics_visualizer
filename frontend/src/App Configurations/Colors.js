@@ -1,0 +1,5 @@
+export const COMPOUND_COLOR = "#d9d9d9" //"#f3c507"
+export const ENZYME_COLOR = "#6b6b6a"
+export const OCCURRENCE_IN_COMPONENT_1 = "#edf50a"
+export const OCCURRENCE_IN_COMPONENT_2 = "#ed0c00"
+export const OCCURRENCE_IN_COMPONENT_1_AND_2 = "#e07604"
