@@ -1250,6 +1250,7 @@ function ThreeJSPlanet(props, ref) {
 	}, [])
 
 
+	// Adds a function to reset the initial view port
 	useEffect(() => {
 		props.DataStore.setResetView(function () {
 			CAMERA.position.set(10, 0, 1000);
