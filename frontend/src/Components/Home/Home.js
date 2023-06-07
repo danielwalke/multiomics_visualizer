@@ -14,6 +14,9 @@ import Introduction from "../Introduction";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import OVGULogo from "../../images/OVGU_fin_logo.png"
 import DBSELogo from "../../images/DBSE_logo.png"
+import {FooterMain} from "../footer/FooterMain";
+import {Impressum} from "../footer/Impressum";
+import {DataProtection} from "../footer/DataProtection";
 
 class Home extends Component{
 
@@ -48,8 +51,8 @@ class Home extends Component{
                 <header>
                     <NavigationBar mobileMode={this.state.mobileMode} changeState={(stateName) => this.changeState(stateName)}/>
                 </header>
-                <div style={{borderRadius: "0", background: "#0068b8", overflow: "auto", position: "relative"}}>
-                    <div style={{display: "flex", borderRadius: "30px 30px 0 0", background: "white", overflow: "auto", position: "relative"}}>
+                <div style={{borderRadius: "0", background: "#0068b8", overflow: "auto", position: "relative", maxHeight:"calc(100vh - 81px - 2em)",height: "calc(100vh - 81px - 2em)"}}>
+                    <div style={{display: "flex", borderRadius: "30px 30px 0 0", background: "white", overflow: "auto", position: "relative", minHeight:"100%"}}>
                         {this.state.openDrawer && this.state.mobileMode &&
                         <Drawer variant={"temporary"} anchor={"left"}
                                 style={{width: "80%"}} open={this.state.openDrawer} onClose={() => this.changeState("openDrawer")}>
@@ -76,6 +79,12 @@ class Home extends Component{
                                 <VisualizationPanel style={{width: this.state.mobileMode ? "100%" : "75%"}} mobileMode={this.state.mobileMode}
                                                     visualizationType={this.props.DataStore.visualizationType}/>}
                             </Route>
+                            <Route path={"/site_notice"}>
+                                <Impressum />
+                            </Route>
+                            <Route path={"/data_protection"}>
+                                <DataProtection />
+                            </Route>
                         </Switch>
                         {this.props.ResponseStore.showBackDrop === true &&
                         <Backdrop style={{opacity: "0.8", zIndex: "1", backgroundColor:"#fafafa", color:"#030409"}}
@@ -87,6 +96,7 @@ class Home extends Component{
                         }
                     </div>
                 </div>
+                <FooterMain DataStore={this.props.DataStore} ResponseStore={this.props.ResponseStore}/>
             </BrowserRouter>
         );
     }

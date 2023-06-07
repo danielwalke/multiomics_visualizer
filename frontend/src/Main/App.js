@@ -18,7 +18,7 @@ const theme = createMuiTheme({
 function App() {
     return (
         <Provider DataStore={DataStore} ResponseStore={ResponseStore}>
-            <div className="App">
+            <div className="App" style={{position: "relative", overflow: "hidden"}}>
                 <ThemeProvider theme={theme}>
                     <Home/>
                 </ThemeProvider>
