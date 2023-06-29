@@ -12,8 +12,7 @@ export const requestGenerator = (httpmethod, endpoint, header, body) => {
             return status>=200 && status<300;
         },
         proxy: {
-            host: host,
-            port: portNumber
+            host: host
         }
     })
         .then(response => response)
