@@ -330,7 +330,7 @@ function D3NetworkComparison(props) {
         <div className={"keggPathway2D"} ref={backgroundRef} >
             <div style={{width:`${width}px`, background: "white", maxHeight: `${props.parentDiv().clientHeight-100}px`, overflowY: "scroll", overflowX: "hidden", zIndex: 1000001}} ref={d3DivRef}>
                 {/*<Button variant={"contained"} color={"primary"} onClick={props.close}> Close </Button>*/}
-                <Typography style={{background: "#0068b4", fontSize: "larger", color: "white", margin: "0 0 5px 0", padding: "10px 0"}}>Kegg Pathway Network</Typography>
+                <Typography style={{background: "#000", fontSize: "larger", color: "white", margin: "0 0 5px 0", padding: "10px 0"}}>Kegg Pathway Network</Typography>
                 <IconButton onClick={props.close} style={{position: "absolute", transform: "translate(0, -100px)"}}>
                     <CloseIcon fontSize={"large"} style={{color: "#FFFFFF"}}/>
                 </IconButton>

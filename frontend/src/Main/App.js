@@ -10,7 +10,7 @@ import ResponseStore from "../Components/State Management/ResponseStore";
 const theme = createMuiTheme({
     palette:{
         primary:{
-            main: '#0068B4',
+            main: '#000',
         },
     }
 })

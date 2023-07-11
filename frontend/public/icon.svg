@@ -113,7 +113,7 @@
              id="circle833"
              cy="131.8511"
              cx="226.70012"
-             style="fill:#0068b4;stroke-width:0.76866364"
+             style="fill:#000;stroke-width:0.76866364"
              rx="11.200238"
              ry="10.811615" />
           <path
@@ -125,7 +125,7 @@
              id="circle837"
              cy="128.13568"
              cx="424.23956"
-             style="fill:#0068b4;stroke-width:0.76866364"
+             style="fill:#000;stroke-width:0.76866364"
              rx="11.200238"
              ry="10.811615" />
           <path
@@ -137,7 +137,7 @@
              id="circle841"
              cy="312.25793"
              cx="475.76331"
-             style="fill:#0068b4;stroke-width:0.76866364"
+             style="fill:#000;stroke-width:0.76866364"
              rx="11.200238"
              ry="10.811615" />
           <path
@@ -149,7 +149,7 @@
              id="circle845"
              cy="405.05975"
              cx="303.15332"
-             style="fill:#0068b4;stroke-width:0.76866364"
+             style="fill:#000;stroke-width:0.76866364"
              rx="11.200238"
              ry="10.811615" />
           <path
@@ -161,7 +161,7 @@
              id="circle849"
              cy="265.83908"
              cx="168.1133"
-             style="fill:#0068b4;stroke-width:0.76866364"
+             style="fill:#000;stroke-width:0.76866364"
              rx="11.200238"
              ry="10.811615" />
         </g>

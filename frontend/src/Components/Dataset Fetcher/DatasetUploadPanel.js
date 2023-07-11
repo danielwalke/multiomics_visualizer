@@ -193,7 +193,7 @@ class DatasetUploadPanel extends Component{
         return(
             <>
                 <Dialog open={true} maxWidth={"lg"} fullWidth={true} onClose={() => this.props.hideDialog(this.props.inputFile ? 'uploadPanel' : 'additionalFile')}>
-                    <DialogTitle style={{background: "#0068B8", color: "white"}} align={"center"}>
+                    <DialogTitle style={{background: "#000", color: "white"}} align={"center"}>
                         {this.props.title}
                     </DialogTitle>
                     <DialogContent style={{display: "flex", flex: "1", flexDirection: this.props.mobileMode ? "column" : "row", padding: "2%"}}>

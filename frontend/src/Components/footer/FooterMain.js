@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export const FooterMain = (props) =>{
     return(
-        <div style={{backgroundColor:"#0068B4", zIndex: 10000, height: "2em", display: "flex",
+        <div style={{backgroundColor:"#000", zIndex: 10000, height: "2em", display: "flex",
         justifyContent:"center", alignItems:"center", color:"white", width:"100%"}}>
             <div style={{"padding": ".5rem", display: "flex",
                 justifyContent:"center", alignItems:"center", width:"100%", gap:".25rem"}}>

@@ -16,6 +16,6 @@ export const generateColors = (numberOfColors) => {
     * */
 }
 
-export const scorePlotColor = "#0068b8"
+export const scorePlotColor = "#000"
 
 export const loadingPlotColor = "#21908d";

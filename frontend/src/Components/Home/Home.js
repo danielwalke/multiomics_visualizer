@@ -51,12 +51,12 @@ class Home extends Component{
                 <header>
                     <NavigationBar mobileMode={this.state.mobileMode} changeState={(stateName) => this.changeState(stateName)}/>
                 </header>
-                <div style={{borderRadius: "0", background: "#0068b8", overflow: "auto", position: "relative", maxHeight:"calc(100vh - 81px - 2em)",height: "calc(100vh - 81px - 2em)"}}>
+                <div style={{borderRadius: "0", background: "#000", overflow: "auto", position: "relative", maxHeight:"calc(100vh - 81px - 2em)",height: "calc(100vh - 81px - 2em)"}}>
                     <div style={{display: "flex", borderRadius: "30px 30px 0 0", background: "white", overflow: "auto", position: "relative", minHeight:"100%"}}>
                         {this.state.openDrawer && this.state.mobileMode &&
                         <Drawer variant={"temporary"} anchor={"left"}
                                 style={{width: "80%"}} open={this.state.openDrawer} onClose={() => this.changeState("openDrawer")}>
-                            <div style={{display: "flex", flexDirection: "column", background: "#0068b4"}}>
+                            <div style={{display: "flex", flexDirection: "column", background: "#000"}}>
                                 <a href={"https://www.inf.ovgu.de/"} target={"_blank"} rel="noopener noreferrer" style={{height: "80px"}}>
                                     <img src={OVGULogo} alt={"OVGU Logo"}/>
                                 </a>
