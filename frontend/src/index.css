@@ -12,3 +12,6 @@ code {
     monospace;
 }
 
+html *{
+  font-family: "Times New Roman" !important;
+}

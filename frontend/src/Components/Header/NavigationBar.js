@@ -19,7 +19,6 @@ export default function NavigationBar(props) {
             <div style={style.navBar}>
                 {!props.mobileMode &&
                     <img style={{height:'81px', cursor:'pointer'}} src={OVGULogo} alt={"OVGU Magdeburg"} onClick={() => window.open("https://www.isas.de/", "_blank")}/>
-
                 }
                 {props.mobileMode &&
                 <IconButton style={style.icon} onClick={() => props.changeState("openDrawer")} disableRipple>
