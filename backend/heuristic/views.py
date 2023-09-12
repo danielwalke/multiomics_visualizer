@@ -1,6 +1,6 @@
 # Create your views here.
 import pandas as pd
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from rest_framework.decorators import api_view
 from rest_framework.exceptions import ParseError, server_error
 
@@ -69,3 +69,7 @@ def pathway_finder(request):
         return JsonResponse(links)
     except Exception as e:
         raise ParseError({"file": request.data.get("data").name, "details": e})
+
+@api_view(['GET'])
+def hello(request):
+    return HttpResponse("Hello, world!")
