@@ -1,6 +1,5 @@
 import React from "react"
-import OVGULogo from "../../Assets/ISAS_Logo_Standard.jpg"
-import DBSELogo from "../../images/DBSE_logo.png"
+import OVGULogo from "../../Assets/ISAS_Logo_Standard.svg"
 import {AppBar, IconButton} from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -18,7 +17,7 @@ export default function NavigationBar(props) {
         <>
             <div style={style.navBar}>
                 {!props.mobileMode &&
-                    <img style={{height:'81px', cursor:'pointer'}} src={OVGULogo} alt={"OVGU Magdeburg"} onClick={() => window.open("https://www.isas.de/", "_blank")}/>
+                    <img style={{height:'81px', cursor:'pointer', background: "black"}} src={OVGULogo} alt={"OVGU Magdeburg"} onClick={() => window.open("https://www.isas.de/", "_blank")}/>
                 }
                 {props.mobileMode &&
                 <IconButton style={style.icon} onClick={() => props.changeState("openDrawer")} disableRipple>
