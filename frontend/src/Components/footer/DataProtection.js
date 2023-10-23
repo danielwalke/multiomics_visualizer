@@ -4,52 +4,104 @@ export const DataProtection = () => {
     return(
         <div style={{height:"100%", overflowY:"auto", width:"100%", display:"flex", justifyContent:"center", padding:"1rem"}}>
             <div style={{padding:".75rem", width: "80%", minHeight:"100%", textAlign:"justify"}} className={"glass"}>
-                <h2>Data protection</h2>
+                <h2>Datenschutz</h2>
                 <div >
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <p>
+                    Die verantwortliche Stelle für das Angebot dieser Webseiten ist das Leibniz-Institut für Analytische Wissenschaften – ISAS – e.V, Bunsen-Kirchhoff-Str. 11, D-44139 Dortmund.<br/>
 
+                    Datenschutz und Datensicherheit haben in unserem Institut einen hohen Stellenwert, da wir den Schutz Ihrer personenbezogenen Daten sehr ernst nehmen. Zu diesem Zweck haben wir technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die datenschutzrechtlich relevanten Gesetze, insbesondere die Datenschutz-Grundverordnung (DS-GVO) und das Bundesdatenschutzgesetz (BDSG-neu), beachtet werden. Die Einhaltung datenschutzrechtlicher Anforderungen bei der Nutzung unserer Webseite ist uns ein zentrales Anliegen, um gewährleisten zu können, dass mit Ihren personenbezogenen Daten datenschutzkonform umgegangen wird.<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                    Im Folgenden informieren wir Sie über die Erhebung personenbezogener Daten bei der Nutzung unserer Website. Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.
 
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    </p>
+                    <ol>
+                        <li>
+                            <h3>Erhebung, Verarbeitung und Nutzung</h3>
+                            <p>
+                                Im Rahmen eines jeden Zugriffs auf unsere Internetseite ist es unumgänglich, dass gewisse Daten auf dem Server des Providers gespeichert werden, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und um deren Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a DS-GVO), wie zum Beispiel:<br/>
 
-                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                die Client IP-Adresse<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                                der Name des verwendeten Internetbrowsers<br/>
 
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                                das Datum und die Uhrzeit des jeweiligen Zugriffs<br/>
 
-                    Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+                                die übertragene Datenmenge<br/>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                die aufgerufene Seite auf www.isas.de<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Die von Ihnen eingegebenen Daten werden lediglich zu statistischen Zwecken auf besonders geschützten Servern gespeichert. Nur befugtes Personal, das sich mit der Betreuung der Server befasst, ist berechtigt, auf die Daten zuzugreifen. Da eine personenbezogene Zuordnung nicht stattfindet, werden die Datensätze für die statistische Auswertung nur in anonymisierter Form vorgehalten.<br/>
 
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                Falls wir für einzelne Funktionen unseres Angebots auf beauftragte Dienstleister zurückgreifen oder Ihre Daten für werbliche Zwecke nutzen möchten, werden wir Sie untenstehend im Detail über die jeweiligen Vorgänge informieren. Dabei nennen wir auch die festgelegten Kriterien der Speicherdauer.<br/>
 
-                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                Im Falle individuellen Kontakts werden bestimmte personenbezogene Daten, wie beispielsweise E-Mail Adresse, Name, Telefonnummer oder Anschrift abgefragt. Insbesondere kommt dies bei allgemeinen E-Mail-Anfragen in Betracht. Diese Eingaben erfolgen nur auf freiwilliger Basis. Auch diese Daten werden vertraulich behandelt und nicht ohne Ihre Einwilligung an Dritte weitergegeben. Die in diesem Zusammenhang anfallenden personenbezogenen Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen. Durch Anordnung zuständiger staatlicher Behörden können wir im Einzelfall verpflichtet sein, personenbezogene Daten herauszugeben, wenn dies zur Gefahrenabwehr, Strafverfolgung oder aus anderen gesetzlich geregelten Gründen erforderlich ist.<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                                Im Übrigen findet keine Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten statt.
+                            </p>
+                        </li>
 
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                        <li>
+                            <h3>Tracking und Analyse</h3>
+                            <p>
+                                Der folgende Abschnitt trifft nur zu, wenn Sie der Verwendung von Cookies zugestimmt haben.<br/>
 
-                    Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+                                Auf dieser Website werden unter Einsatz der Webanalysedienst-Software Matomo (www.matomo.org), einem Dienst des Anbieters InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland, („Matomo“) auf Basis unseres berechtigten Interesses an der statistischen Analyse des Nutzerverhaltens zu Optimierungs- und Marketingzwecken gemäß Art. 6 Abs. 1 lit. f DSGVO Daten gesammelt und gespeichert. Aus diesen Daten können zum selben Zweck pseudonymisierte Nutzungsprofile erstellt und ausgewertet werden. Hierzu können Cookies eingesetzt werden. (Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen unter anderem die Wiedererkennung des Internet-Browsers.) Die mit der Matomo-Technologie erhobenen Daten (einschließlich Ihrer pseudonymisierten IP-Adresse) werden auf unseren Servern verarbeitet und nicht an Dritte übermittelt.<br/>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                Die erhobenen IP-Adressen werden automatisch anonymisiert, indem Teile der IP-Adresse unkenntlich gemacht werden (sog. IP-Masking). Die IP-Adresse und die durch das Cookie erzeugten Informationen im pseudonymen Nutzerprofil werden nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen. In diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Matomo keinerlei Sitzungsdaten erhebt. Bitte beachten Sie, dass die vollständige Löschung Ihrer Cookies zur Folge hat, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut aktiviert werden muss.<br/>
+                            </p>
+                        </li>
 
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        <li>
+                            <h3>Wahrnehmung von Betroffenenrechten</h3>
+                            <p>
+                                Als Nutzer dieser Webseite haben Sie das Recht, jederzeit ihre Einwilligung zur Nutzung Ihrer Daten zu widerrufen und unentgeltlich Auskunft über die von Ihnen gespeicherten personenbezogenen Daten zu verlangen. Darüber hinaus können Sie Ihre Rechte auf Berichtigung oder Löschung, auf Einschränkung der Verarbeitung, auf Widerspruch gegen die Verarbeitung, oder auf Datenübertragbarkeit Ihrer personenbezogenen Daten geltend machen. Hierzu bedarf es eines ausdrücklichen Antrages beim Anbieter dieser Webseite.<br/>
 
-                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                Sie haben zudem das Recht, sich bei der Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren:<br/>
 
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                                Landesbeauftragte für Datenschutz und Informationsfreiheit<br/>
 
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                                Nordrhein-Westfalen<br/>
 
-                    Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+                                Postfach 20 04 44<br/>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                D-40102 Düsseldorf<br/>
+
+                                Tel.: 0211/38424-0<br/>
+
+                                Fax: 0211/38424-999<br/>
+
+                                poststelle@ldi.nrw.de
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Verlinkung zu anderen Webseiten</h3>
+                            <p>
+                                Als Anbieter unserer Website sind wir für die Inhalte unseres eigenen Online-Angebots verantwortlich. Von diesen eigenen Inhalten sind unter Umständen Links auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden, für die wir keine Verantwortung übernehmen können und uns deren Inhalt nicht zu Eigen machen. Allerdings haben wir keinen Einfluss, ob sich die mit uns verlinkten Webseitenbetreiber an die einschlägigen Datenschutzregelungen halten. Für die Inhalte fremder Websites übernehmen wir daher keine Haftung. Es haftet allein der jeweilige Drittanbieter für Schäden durch fehlerhafte oder illegale Inhalte seiner Webseite.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Kontaktinformationen</h3>
+                            <p>
+                                Gerne können Sie uns auch kontaktieren, wenn Sie Fragen oder Anregungen zum Thema Datenschutz bei haben.<br/>
+
+                                Ihre Rechte können Sie gegenüber dem Leibniz-Institut für Analytische Wissenschaften – ISAS – e.V als verantwortliche Stelle geltend machen unter:<br/>
+
+                                Leibniz-Institut für Analytische Wissenschaften - ISAS - e.V.<br/>
+
+                                Bunsen-Kirchhoff-Str. 11<br/>
+
+                                D-44139 Dortmund<br/>
+
+                                datenschutz@isas.de<br/>
+
+                                Unseren Datenschutzbeauftragten erreichen Sie unter borkowski@ecoprotec.de.
+                            </p>
+                        </li>
+                    </ol>
 
                 </div>
             </div>
