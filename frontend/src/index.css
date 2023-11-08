@@ -14,4 +14,8 @@ code {
 
 html *{
   font-family: "GT Pressura regular" !important;
+  /*color: black !important;*/
+}
+.makeStyles-content-2, .MuiTypography-root{
+  color: black !important;
 }
