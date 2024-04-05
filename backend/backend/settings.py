@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
     "https://multiomics-visualizer.isas.de",
+    "https://mdoa-tools.bi.denbi.de",
 ]
 
 # Application definition

@@ -8,16 +8,16 @@ export const FooterMain = (props) =>{
         justifyContent:"center", alignItems:"center", color:"white", width:"100%"}}>
             <div style={{"padding": ".5rem", display: "flex",
                 justifyContent:"center", alignItems:"center", width:"100%", gap:".25rem"}}>
-                <Link to={"/site_notice"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>
-                    <Button size={"small"} variant={"contained"} color={"primary"} style={{margin: "5px 0 5px 0", lineHeight:"1rem"}}>
-                        Site Notice
-                    </Button>
-                </Link>
-                <Link to={"/data_protection"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>
-                    <Button size={"small"} variant={"contained"} color={"primary"} style={{margin: "5px 0 5px 0", lineHeight:"1rem"}}>
-                        Data protection
-                    </Button>
-                </Link>
+                {/*<Link to={"/multiomics/site_notice"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>*/}
+                {/*    <Button size={"small"} variant={"contained"} color={"primary"} style={{margin: "5px 0 5px 0", lineHeight:"1rem"}}>*/}
+                {/*        Site Notice*/}
+                {/*    </Button>*/}
+                {/*</Link>*/}
+                {/*<Link to={"/multiomics/data_protection"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>*/}
+                {/*    <Button size={"small"} variant={"contained"} color={"primary"} style={{margin: "5px 0 5px 0", lineHeight:"1rem"}}>*/}
+                {/*        Data protection*/}
+                {/*    </Button>*/}
+                {/*</Link>*/}
             </div>
 
         </div>

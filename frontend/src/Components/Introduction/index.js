@@ -68,7 +68,7 @@ class Introduction extends PureComponent {
                             This supports visualization of up to five omics layers with a maximum size of up to 20MB.
                             Currently, this app includes PCA, clustering along with 2D and 3D visualization and a limited VR options.
                         </p>
-                        <Link to={"/visualize"}>
+                        <Link to={"/multiomics/visualize"}>
                             <Button color={"primary"} variant={"outlined"} onClick={this.load}>
                                 Demo
                             </Button>

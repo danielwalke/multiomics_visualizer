@@ -14,9 +14,9 @@ import Introduction from "../Introduction";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import OVGULogo from "../../images/OVGU_fin_logo.png"
 import DBSELogo from "../../images/DBSE_logo.png"
-import {FooterMain} from "../footer/FooterMain";
-import {Impressum} from "../footer/Impressum";
-import {DataProtection} from "../footer/DataProtection";
+// import {FooterMain} from "../footer/FooterMain";
+// import {Impressum} from "../footer/Impressum";
+// import {DataProtection} from "../footer/DataProtection";
 
 class Home extends Component{
 
@@ -71,20 +71,20 @@ class Home extends Component{
                         {!this.state.mobileMode && <SideBarDrawer mobileMode={this.state.mobileMode} style={{width: "25%"}}/>}
                         {this.props.DataStore.callRequestPayload && <RequestPayload/>}
                         <Switch>
-                            <Route exact path={"/"}>
+                            <Route exact path={"/multiomics/"}>
                                 <Introduction mobileMode={this.state.mobileMode} closeSideBar={() => this.changeState("openDrawer")}/>
                             </Route>
-                            <Route path={"/visualize"}>
+                            <Route path={"/multiomics/visualize"}>
                                 {this.props.ResponseStore.visualize &&
                                 <VisualizationPanel style={{width: this.state.mobileMode ? "100%" : "75%"}} mobileMode={this.state.mobileMode}
                                                     visualizationType={this.props.DataStore.visualizationType}/>}
                             </Route>
-                            <Route path={"/site_notice"}>
+                            {/*<Route path={"/multiomics/site_notice"}>
                                 <Impressum />
                             </Route>
-                            <Route path={"/data_protection"}>
+                            <Route path={"/multiomics/data_protection"}>
                                 <DataProtection />
-                            </Route>
+                            </Route>*/}
                         </Switch>
                         {this.props.ResponseStore.showBackDrop === true &&
                         <Backdrop style={{opacity: "0.8", zIndex: "1", backgroundColor:"#fafafa", color:"#030409"}}
@@ -96,7 +96,7 @@ class Home extends Component{
                         }
                     </div>
                 </div>
-                <FooterMain DataStore={this.props.DataStore} ResponseStore={this.props.ResponseStore}/>
+                {/*<FooterMain DataStore={this.props.DataStore} ResponseStore={this.props.ResponseStore}/>*/}
             </BrowserRouter>
         );
     }
