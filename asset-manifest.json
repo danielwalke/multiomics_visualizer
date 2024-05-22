@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/multiomics_visualizer/static/css/main.e922ad88.chunk.css",
+    "main.js": "/multiomics_visualizer/static/js/main.ff2a8904.chunk.js",
+    "main.js.map": "/multiomics_visualizer/static/js/main.ff2a8904.chunk.js.map",
+    "runtime-main.js": "/multiomics_visualizer/static/js/runtime-main.04466717.js",
+    "runtime-main.js.map": "/multiomics_visualizer/static/js/runtime-main.04466717.js.map",
+    "static/js/2.8c18399e.chunk.js": "/multiomics_visualizer/static/js/2.8c18399e.chunk.js",
+    "static/js/2.8c18399e.chunk.js.map": "/multiomics_visualizer/static/js/2.8c18399e.chunk.js.map",
+    "static/js/3.045a248b.chunk.js": "/multiomics_visualizer/static/js/3.045a248b.chunk.js",
+    "static/js/3.045a248b.chunk.js.map": "/multiomics_visualizer/static/js/3.045a248b.chunk.js.map",
+    "static/js/4.d90fe10c.chunk.js": "/multiomics_visualizer/static/js/4.d90fe10c.chunk.js",
+    "static/js/4.d90fe10c.chunk.js.map": "/multiomics_visualizer/static/js/4.d90fe10c.chunk.js.map",
+    "static/js/5.0e91fa20.chunk.js": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js",
+    "static/js/5.0e91fa20.chunk.js.map": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js.map",
+    "index.html": "/multiomics_visualizer/index.html",
+    "precache-manifest.13255d277e388cce5a07a536ff240f34.js": "/multiomics_visualizer/precache-manifest.13255d277e388cce5a07a536ff240f34.js",
+    "service-worker.js": "/multiomics_visualizer/service-worker.js",
+    "static/css/main.e922ad88.chunk.css.map": "/multiomics_visualizer/static/css/main.e922ad88.chunk.css.map",
+    "static/js/2.8c18399e.chunk.js.LICENSE.txt": "/multiomics_visualizer/static/js/2.8c18399e.chunk.js.LICENSE.txt",
+    "static/js/3.045a248b.chunk.js.LICENSE.txt": "/multiomics_visualizer/static/js/3.045a248b.chunk.js.LICENSE.txt",
+    "static/js/4.d90fe10c.chunk.js.LICENSE.txt": "/multiomics_visualizer/static/js/4.d90fe10c.chunk.js.LICENSE.txt",
+    "static/js/5.0e91fa20.chunk.js.LICENSE.txt": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js.LICENSE.txt",
+    "static/media/ISAS_Logo_Standard.svg": "/multiomics_visualizer/static/media/ISAS_Logo_Standard.34684188.svg",
+    "static/media/Sample.zip": "/multiomics_visualizer/static/media/Sample.7964c4d8.zip",
+    "static/media/User guide.pdf": "/multiomics_visualizer/static/media/User guide.bf40c138.pdf",
+    "static/media/disclaimer.svg": "/multiomics_visualizer/static/media/disclaimer.7571d616.svg",
+    "static/media/documentation.svg": "/multiomics_visualizer/static/media/documentation.d0cdf73f.svg",
+    "static/media/goal.svg": "/multiomics_visualizer/static/media/goal.c44ced4f.svg",
+    "static/media/note.svg": "/multiomics_visualizer/static/media/note.ed2d7f47.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04466717.js",
+    "static/js/2.8c18399e.chunk.js",
+    "static/css/main.e922ad88.chunk.css",
+    "static/js/main.ff2a8904.chunk.js"
+  ]
+}
