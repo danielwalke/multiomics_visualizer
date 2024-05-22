@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/multiomics_visualizer/precache-manifest.355c42d2cc8d82effc609079df1e4c62.js"
+  "/multiomics_visualizer/precache-manifest.c6e91e2987b3b61549d0f13fa65b783d.js"
 );
 
 self.addEventListener('message', (event) => {

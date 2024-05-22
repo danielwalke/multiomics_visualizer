@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "216289fa789139ffa532a333d19d3449",
+    "revision": "aff11458521eed1dcc7a386c847529e4",
     "url": "/multiomics_visualizer/index.html"
   },
   {
-    "revision": "9b94c568da12be8013e9",
+    "revision": "bbbef8b35cb349693327",
     "url": "/multiomics_visualizer/static/css/main.e922ad88.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b94c568da12be8013e9",
-    "url": "/multiomics_visualizer/static/js/main.bfb107d5.chunk.js"
+    "revision": "bbbef8b35cb349693327",
+    "url": "/multiomics_visualizer/static/js/main.f7d6f967.chunk.js"
   },
   {
     "revision": "1d18223e4c3fa48e964a",

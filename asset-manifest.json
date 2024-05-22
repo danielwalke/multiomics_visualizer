@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/multiomics_visualizer/static/css/main.e922ad88.chunk.css",
-    "main.js": "/multiomics_visualizer/static/js/main.bfb107d5.chunk.js",
-    "main.js.map": "/multiomics_visualizer/static/js/main.bfb107d5.chunk.js.map",
+    "main.js": "/multiomics_visualizer/static/js/main.f7d6f967.chunk.js",
+    "main.js.map": "/multiomics_visualizer/static/js/main.f7d6f967.chunk.js.map",
     "runtime-main.js": "/multiomics_visualizer/static/js/runtime-main.04466717.js",
     "runtime-main.js.map": "/multiomics_visualizer/static/js/runtime-main.04466717.js.map",
     "static/js/2.8c18399e.chunk.js": "/multiomics_visualizer/static/js/2.8c18399e.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/5.0e91fa20.chunk.js": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js",
     "static/js/5.0e91fa20.chunk.js.map": "/multiomics_visualizer/static/js/5.0e91fa20.chunk.js.map",
     "index.html": "/multiomics_visualizer/index.html",
-    "precache-manifest.355c42d2cc8d82effc609079df1e4c62.js": "/multiomics_visualizer/precache-manifest.355c42d2cc8d82effc609079df1e4c62.js",
+    "precache-manifest.c6e91e2987b3b61549d0f13fa65b783d.js": "/multiomics_visualizer/precache-manifest.c6e91e2987b3b61549d0f13fa65b783d.js",
     "service-worker.js": "/multiomics_visualizer/service-worker.js",
     "static/css/main.e922ad88.chunk.css.map": "/multiomics_visualizer/static/css/main.e922ad88.chunk.css.map",
     "static/js/2.8c18399e.chunk.js.LICENSE.txt": "/multiomics_visualizer/static/js/2.8c18399e.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.04466717.js",
     "static/js/2.8c18399e.chunk.js",
     "static/css/main.e922ad88.chunk.css",
-    "static/js/main.bfb107d5.chunk.js"
+    "static/js/main.f7d6f967.chunk.js"
   ]
 }
