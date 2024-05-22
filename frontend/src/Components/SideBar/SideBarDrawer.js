@@ -24,7 +24,7 @@ class SideBarDrawer extends Component{
 
     dimensionalityReductionAlgorithm = [{label: "PCA"}]
     clusteringAlgorithm = [{label: "Number of Clusters", type: "inputfield", propName: "clusterSize", helperText: "clusterSizeHelperText"}, {label: "K-Means"}]
-    visualizationType = [{label:"2D", link: "/visualize"}, {label: "3D", link: "/visualize"}]
+    visualizationType = [{label:"2D", link: "/multiomics_visualizer/visualize"}, {label: "3D", link: "/multiomics_visualizer/visualize"}]
 
     constructor(props) {
         super(props);
