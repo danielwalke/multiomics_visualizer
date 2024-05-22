@@ -101,7 +101,7 @@ class SideBarDrawer extends Component{
         * label: Name of the icon, icon: icon svg reference, subcomponent: define the type of the child component
         * */
         let sideBarDrawerComponents = [
-            {label: "Home", icon: HomeIcon, link: "/multiomics/"},
+            {label: "Home", icon: HomeIcon, link: "/multiomics_visualizer/"},
             {label: "Data", icon: BackupOutlinedIcon, subComponentType: "treeItem",
                 subComponent: [
                     {label: "Omics files", icon: AttachFileOutlinedIcon, info: this.props.DataStore.filesCount, stateName: "uploadPanel"},
@@ -136,7 +136,7 @@ class SideBarDrawer extends Component{
                     >
                         {this.customTreeRenderer(sideBarDrawerComponents)}
                     </TreeView>
-                    <Link to={"/multiomics/visualize"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>
+                    <Link to={"/multiomics_visualizer/visualize"} style={{textAlign: "center", color: "inherit", textDecoration: "unset"}}>
                         <Button size={"small"} variant={"contained"} color={"primary"} style={{margin: "5px 0 5px 0"}}
                                 name={"Visualize"}
                                 onClick={() => {
