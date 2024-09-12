@@ -1,13 +1,17 @@
-FROM node:12.2.0-alpine as react_build
-WORKDIR /app
-COPY . /app
-RUN npm install --silent
-RUN npm install react-scripts@3.0.1 -g --silent
-RUN npm run build
-FROM nginx:1.16.0-alpine
-COPY --from=react_build /app/build /usr/share/nginx/html
-RUN rm /etc/nginx/conf.d/default.conf
-COPY server/server.conf /etc/nginx/conf.d
+# Use a lightweight web server to serve the static files
+FROM nginx:alpine
+#RUN npm install
+#RUN npm run build
 
-EXPOSE 3000
+# Copy the build output to the web server's directory
+# COPY build /usr/share/nginx/html
+COPY build /etc/nginx/html/multiomics
+
+# Copy a custom nginx configuration file
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Expose port 80 to the outside world
+EXPOSE 80
+
+# Start nginx when the container starts
 CMD ["nginx", "-g", "daemon off;"]

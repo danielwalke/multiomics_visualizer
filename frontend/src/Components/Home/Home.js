@@ -71,18 +71,18 @@ class Home extends Component{
                         {!this.state.mobileMode && <SideBarDrawer mobileMode={this.state.mobileMode} style={{width: "25%"}}/>}
                         {this.props.DataStore.callRequestPayload && <RequestPayload/>}
                         <Switch>
-                            <Route exact path={"/multiomics_visualizer/"}>
+                            <Route exact path={"/multiomics/"}>
                                 <Introduction mobileMode={this.state.mobileMode} closeSideBar={() => this.changeState("openDrawer")}/>
                             </Route>
-                            <Route path={"/multiomics_visualizer/visualize"}>
+                            <Route path={"/multiomics/visualize"}>
                                 {this.props.ResponseStore.visualize &&
                                 <VisualizationPanel style={{width: this.state.mobileMode ? "100%" : "75%"}} mobileMode={this.state.mobileMode}
                                                     visualizationType={this.props.DataStore.visualizationType}/>}
                             </Route>
-                            {/*<Route path={"/multiomics_visualizer/site_notice"}>
+                            {/*<Route path={"/multiomics/site_notice"}>
                                 <Impressum />
                             </Route>
-                            <Route path={"/multiomics_visualizer/data_protection"}>
+                            <Route path={"/multiomics/data_protection"}>
                                 <DataProtection />
                             </Route>*/}
                         </Switch>

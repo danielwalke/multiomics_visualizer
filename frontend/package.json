@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://danielwalke.github.io/multiomics_visualizer",
+  "homepage": "/multiomics",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",

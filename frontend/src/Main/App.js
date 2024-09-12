@@ -35,6 +35,11 @@ function App() {
         })();*/
     }, [])
 
+    useEffect(() => {
+        // const pathname = window.location.pathname;
+        window.history.pushState({}, '', '/multiomics');
+    }, []);
+
     return (
         <Provider DataStore={DataStore} ResponseStore={ResponseStore}>
             <div className="App" style={{position: "relative", overflow: "hidden"}}>
