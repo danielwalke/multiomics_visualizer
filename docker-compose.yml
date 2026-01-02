@@ -7,6 +7,10 @@ services:
             dockerfile: Dockerfile
         ports:
             - "8000:8000"
+        environment:
+            - DJANGO_DEBUG=True
+            - DJANGO_SECRET_KEY=2oba5uz$w1zj9%*1t*r*5p_n*(9f1-ux%2e&w2vozo(2-ajnc@
+            - DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,backend
     frontend:
         container_name: frontend
         build:
