@@ -7,6 +7,12 @@ services:
             dockerfile: Dockerfile
         ports:
             - "8000:8000"
+        environment:
+            # Development environment variables
+            # WARNING: Change DJANGO_SECRET_KEY for production deployments
+            - DJANGO_DEBUG=True
+            - DJANGO_SECRET_KEY=dev-secret-key-change-in-production
+            - DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,backend
     frontend:
         container_name: frontend
         build:

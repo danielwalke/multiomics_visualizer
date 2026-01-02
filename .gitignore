@@ -1,1 +1,11 @@
 /backend/venv/
+.env
+.env.local
+*.env
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+

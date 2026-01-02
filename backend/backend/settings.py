@@ -20,14 +20,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '2oba5uz$w1zj9%*1t*r*5p_n*(9f1-ux%2e&w2vozo(2-ajnc@'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '2oba5uz$w1zj9%*1t*r*5p_n*(9f1-ux%2e&w2vozo(2-ajnc@')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
 
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
 
-ALLOWED_HOSTS = ["*"]
+allowed_hosts_str = os.environ.get('DJANGO_ALLOWED_HOSTS', 'localhost,127.0.0.1')
+ALLOWED_HOSTS = [host.strip() for host in allowed_hosts_str.split(',') if host.strip()]
 
 CORS_ALLOWED_ORIGINS = [
     "https://multiomics-visualizer.isas.de",
