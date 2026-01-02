@@ -23,6 +23,10 @@ docker-compose up
 
 ### Production Deployment
 
+This application is deployed at:
+- Frontend: https://mdoa-tools.bi.denbi.de/multiomics/
+- Backend: https://mdoa-tools.bi.denbi.de/multiomics_upload
+
 For production deployment, ensure you:
 
 1. Generate a unique secret key:
@@ -34,7 +38,7 @@ For production deployment, ensure you:
    ```bash
    export DJANGO_SECRET_KEY="your-generated-secret-key"
    export DJANGO_DEBUG=False
-   export DJANGO_ALLOWED_HOSTS="yourdomain.com,www.yourdomain.com"
+   export DJANGO_ALLOWED_HOSTS="mdoa-tools.bi.denbi.de,multiomics-visualizer.isas.de"
    ```
 
 3. Never commit `.env` files containing secrets to version control.
